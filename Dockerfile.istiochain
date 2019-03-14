@@ -1,0 +1,5 @@
+FROM 20.26.28.56/special/demo-go:v1
+ADD istioChain /app/app/istiochain
+EXPOSE 8096
+CMD ["chmod +x /app/app/istiochain"]
+CMD ["./app/app/istiochain"]
