@@ -1,7 +1,7 @@
 
 logs
 main
-test/
+test
 **/Library/
 **/.docker/
 **/*.exe
