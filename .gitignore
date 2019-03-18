@@ -1,7 +1,3 @@
-
-logs
-main
-test
 **/Library/
 **/.docker/
 **/*.exe
