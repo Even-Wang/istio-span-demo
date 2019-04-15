@@ -1,4 +1,4 @@
 FROM 20.26.28.56/special/demo-go:v1
 ADD endChain /app/app/endofchain
-EXPOSE 80
+EXPOSE 8091
 CMD ["chmod +x /app/app/endofchain"]
