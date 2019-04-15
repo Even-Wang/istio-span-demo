@@ -23,7 +23,7 @@ func main() {
 		http.Handle("/echo", ht)
 	}
 
-	err := http.ListenAndServe(":8091", nil)
+	err := http.ListenAndServe(":80", nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err.Error())
 	}
